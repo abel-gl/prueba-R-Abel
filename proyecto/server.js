@@ -14,4 +14,9 @@ server.set('view engine','html');
 server.set('views',__dirname+'/app/views');
 
 /*Controllers*/
+<<<<<<< HEAD
 require('./app/controllers/Home')(server,io);
+=======
+require('./app/controllers/Home')(server);
+server.listen(9000);
+>>>>>>> 9a8ae2c7715881636326b347eb53135652004b81
