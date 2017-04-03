@@ -5,10 +5,13 @@
   </head>
   <body>
     <h4>Hola Mundo</h4>
+    <script src = "http://localhost:9000/socket.io/socket.io.js"></script>
     <script>
-    var io = "Hola";
-    console.log(io);
-    
+      var socket = io();
+      socket.on('news', function (data) {
+        console.log(data.hello);
+        socket.emit('my other event', { my: 'desde mi cliente' });
+      });
     </script>
   </body>
 </html>
