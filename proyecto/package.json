@@ -1,0 +1,7 @@
+{
+	"name":"Hola Mundo Node-express",
+	"description":"Un paquete de prueba git, 'holamundo' Node-express",
+	"author":"Abel Garcia",
+	"version":"0.0.1",
+	"dependencies":{}
+}
