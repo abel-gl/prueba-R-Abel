@@ -3,7 +3,7 @@ var HomeController = function (server) {
 
   server.route('/')
     .get(function (req,res) {
-      res.render('home/index');
+      res.render('Home/index');
     })
 }
 module.exports = HomeController;
