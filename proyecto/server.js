@@ -15,6 +15,3 @@ server.set('views',__dirname+'/app/views');
 
 /*Controllers*/
 require('./app/controllers/Home')(server,io);
-
-
-
